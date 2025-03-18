@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.Puppies {
+  /* display: flex; 
+    justify-content: space-between; */
+  width: 85%;
+  margin: 60px auto;
+}
+
+.Puppies div {
+  margin: 30px 0;
+}
+
+.text {
+  display: none;
+  background-color: #ee4d65;
+  width: 310px;
+  height: 310px;
+}
+
+.text div {
+  font-size: 50px;
+  padding: 67px;
+  text-align: center;
+  /* font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 300;
+    font-style: oblique;  */
+}
+
+/* p{
+    border: green 15px dashed;
+} */
+
+.bluebg {
+  padding: 30px 0;
+  background-color: #195774;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer.bluebg {
+  padding: 60px 0;
+}
+
+@media (min-width: 960px) {
+  .text {
+    display: block;
+  }
+  .Puppies {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+  }
+  .Puppies div {
+    margin: 0;
+  }
+}
